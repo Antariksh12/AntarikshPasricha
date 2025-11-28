@@ -1,0 +1,223 @@
+/* ===========================================
+   GLOBAL
+   =========================================== */
+body {
+    color: #e9e8eb;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Center the divider line */
+hr {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Jump Button */
+img.jump {
+    width: 50px;
+    height: auto;
+}
+
+/* Smooth scaling */
+img,
+iframe {
+    max-width: 100%;
+}
+
+/* ===========================================
+   PART 1 — TITLE SECTION
+   =========================================== */
+.part1 {
+    background: url(../images/news2.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.content-center {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.part1 h1 {
+    font-size: clamp(32px, 6vw, 80px);
+    font-family: 'Yu Mincho', 'Hiragino Mincho Pro', serif;
+    line-height: 1.2;
+}
+
+.part1-line {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.part1-text {
+    font-size: clamp(14px, 2.3vw, 20px);
+    line-height: 1.8;
+    letter-spacing: 0.15em;
+}
+
+.scroll-arrow {
+    margin-top: 40px;
+}
+
+
+/* ===========================================
+   PART 2 — INTRODUCTION
+   =========================================== */
+.part2 {
+    background: url(../images/home2_back.jpeg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 80px 10% 100px;
+    text-align: center;
+    color: #fff;
+}
+
+.top-split {
+    width: 50px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.part2 h2 {
+    font-size: clamp(30px, 5vw, 65px);
+    font-family: 'Monotype Corsiva', 'Century', serif;
+}
+
+.section-line {
+    width: clamp(120px, 20vw, 200px);
+    margin: 10px auto 30px;
+}
+
+.part2-text {
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 2;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Recent Box */
+.recent-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    margin: 50px auto;
+    padding: clamp(20px, 5vw, 40px) 5%;
+    max-width: 900px;
+
+    border: 1px solid #e9e8eb;
+    background-image: url(../images/line.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.recent-box .col {
+    flex: 1;
+    text-align: left;
+}
+
+.recent-box h3 {
+    font-size: clamp(18px, 2.2vw, 22px);
+    margin-bottom: 15px;
+}
+
+
+/* ===========================================
+   PART 3 — PV SECTION
+   =========================================== */
+.part3 {
+    background: url(../images/home3_back2.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 80px 10% 120px;
+    text-align: center;
+    color: #fff;
+}
+
+.pv-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.pv-card {
+    width: clamp(260px, 38vw, 410px);
+}
+
+.pv-card p {
+    margin-top: 15px;
+    line-height: 1.6;
+    font-size: clamp(14px, 1.8vw, 17px);
+}
+
+
+/* ===========================================
+   RESPONSIVE BREAKPOINTS
+   =========================================== */
+
+/* Disable parallax on mobile */
+@media (max-width: 900px) {
+    body, .part1, .part2, .part3 {
+        background-attachment: scroll !important;
+    }
+
+    .recent-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .recent-box .col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pv-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+    .part1 {
+        padding: 40px 15px;
+    }
+
+    img.jump {
+        width: 40px;
+    }
+
+    .recent-box {
+        padding: 30px 20px;
+    }
+}
+
+/* Very Small Phones */
+@media (max-width: 400px) {
+    img.jump {
+        width: 32px;
+    }
+
+    .pv-card {
+        width: 95%;
+    }
+}

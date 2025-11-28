@@ -1,0 +1,287 @@
+<!-- Author: Zhu Shejia  Class: PI11A283 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transtional.dtd">
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-style-type" content="text/css" />
+    <title>About |Albums | The World of अन्तरिक्ष</title>
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/disco.css">
+</head>
+
+<body>
+    <!-- Button to scroll back to the top -->
+
+    <!-- Header section -->
+    <div id="header">
+        <h1>
+            <a href="https://www.notion.so/Antariksh-Pasricha-2a7f5e3add9c80c384c4fb3534cab11a" target="_blank">
+                Antariksh Pasricha
+            </a>
+        </h1>
+
+        <!-- Hamburger for small screens -->
+        <div id="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <ul class="menu">
+            <li><a class="button" href="./index.html" id="highlight">Home</a></li>
+            <li><a class="button" href="./about.html">About</a></li>
+            <li><a class="button" href="./teaching.html">Teaching</a></li>
+            <li><a class="button" href="./research.html">Research</a></li>
+            <li><a class="button" href="./blog.html">Blog</a></li>
+            <li><a class="button"
+                    href="https://drive.google.com/file/d/1Vss2K07emHJsb5LBBo6KbpOdVuDHww5l/view?usp=sharing">CV</a>
+            </li>
+        </ul>
+
+        <ul class="menu-2">
+            <li><a href="https://www.youtube.com/@AntarikshPasricha" target="_blank"><img class="sns-icon"
+                        src="./images/link1.png" alt="YouTube"></a></li>
+            <li><a href="https://twitter.com" target="_blank"><img class="sns-icon" src="./images/twitter.png"
+                        alt="Twitter"></a></li>
+            <li><a href="https://linktr.ee/antarikshpasricha" target="_blank"><img class="sns-icon"
+                        src="./images/linktree-logo.png" alt="Linktree"></a></li>
+            <li><a href="https://www.linkedin.com/jobs?mcid..." target="_blank"><img class="sns-icon"
+                        src="./images/linkedin.png" alt="LinkedIn"></a></li>
+            <li><a href="https://workspace.google.com/intl/en-US/gmail/" target="_blank"><img class="sns-icon"
+                        src="./images/gmail.png" alt="Gmail"></a></li>
+            <li><a href="https://www.instagram.com/theantarikshpasricha/" target="_blank"><img class="sns-icon"
+                        src="./images/instagram.png" alt="Instagram1"></a></li>
+                        <li></li>
+                        <li></li>
+        </ul>
+    </div>
+
+    <!-- Left-side sliding menu for small screens -->
+    <div id="sideMenu">
+        <ul>
+            <li><a href="./index.html" >Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./teaching.html">Teaching</a></li>
+            <li><a href="./research.html">Research</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="https://drive.google.com/file/d/1Vss2K07emHJsb5LBBo6KbpOdVuDHww5l/view?usp=sharing">Resume</a>
+            </li>
+        </ul>
+        <!-- Social Icons inside Side Menu -->
+    <div class="side-social">
+        <a href="https://www.youtube.com/@AntarikshPasricha" target="_blank"><img src="./images/link1.png" class="sns-icon"></a>
+        <a href="https://twitter.com" target="_blank"><img src="./images/twitter.png" class="sns-icon"></a>
+        <a href="https://linktr.ee/antarikshpasricha" target="_blank"><img src="./images/linktree-logo.png" class="sns-icon"></a>
+        <a href="https://www.linkedin.com" target="_blank"><img src="./images/linkedin.png" class="sns-icon"></a>
+        <a href="https://gmail.com" target="_blank"><img src="./images/gmail.png" class="sns-icon"></a>
+        <a href="https://www.instagram.com/theantarikshpasricha/" target="_blank"><img src="./images/instagram.png" class="sns-icon"></a>
+    </div>
+        
+        
+    </div>
+
+    <!-- Overlay to close menu -->
+    <div id="overlay" onclick="toggleMenu()"></div>
+    <script>
+        function toggleMenu() {
+            const sideMenu = document.getElementById('sideMenu');
+            const overlay = document.getElementById('overlay');
+            if (sideMenu.style.left === '0px') {
+                sideMenu.style.left = '-250px';
+                overlay.style.display = 'none';
+            } else {
+                sideMenu.style.left = '0px';
+                overlay.style.display = 'block';
+            }
+        }
+    </script>
+
+
+    <!-- Left-side navigation -->
+    <div class="navi">
+        <h1>Discography</h1>
+        <hr class="navi-line">
+        <p class="navi-subtitle">"The best singing possible with my own vocal cords"</p>
+
+        <ul class="navi-menu">
+            <li><a href="./about.html" class="navi-link">All</a></li>
+            <li><a href="./single.html" class="navi-link">Singles</a></li>
+            <li><a href="./album.html" class="navi-link" id="highlight">Albums</a></li>
+            <li><a href="./dvd.html" class="navi-link">DVD</a></li>
+        </ul>
+    </div>
+
+
+    <!-- Left side: videos / Right side: album info -->
+    <div id="text">
+        <p id="attention">* Tie-ins refer only to newly recorded songs</p>
+
+        <h2 class="pink album">Best Albums</h2>
+
+        <iframe class="video" width="350" height="197" src="https://www.youtube.com/embed/Mo27qCAw4zM?start=45"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+
+        <table>
+            <tr>
+                <th colspan="2">BEST SELECTION "blanc"<br>BEST SELECTION "noir"</th>
+            </tr>
+            <tr>
+                <td>Release Date</td>
+                <td>May 3, 2017</td>
+            </tr>
+            <tr>
+                <td class="cell">Tie-in</td>
+                <td class="pink"><em>"zero"</em> — HAL College of Technology (Tokyo/Osaka/Nagoya) TV commercial song
+                </td>
+            </tr>
+            <tr>
+                <td>Notes</td>
+                <td>"blanc" ranked #3 on Oricon Weekly<br>"noir" ranked #4 on Oricon Weekly</td>
+            </tr>
+        </table>
+        <hr class="long">
+
+        <h2 class="pink album">Original Albums</h2>
+
+        <!-- <iframe class="video" width="350" height="197" src="https://www.youtube.com/embed/gWiEx_eXj40?start=45"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+
+        <iframe class="video" width="350" height="197" src="https://www.youtube.com/embed/Mo27qCAw4zM?start=45"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <table>
+            <tr>
+                <th colspan="2">daydream</th>
+            </tr>
+            <tr>
+                <td>Release Date</td>
+                <td>September 21, 2016</td>
+            </tr>
+            <tr>
+                <td class="cell">Tie-in</td>
+                <td>"Kataomoi" — TBS "CDTV" October/November Opening Theme</td>
+            </tr>
+            <tr>
+                <td>Notes</td>
+                <td>Oricon Weekly #2</td>
+            </tr>
+        </table>
+        <hr class="long">
+
+        <iframe class="video" width="350" height="197" src="https://www.youtube.com/embed/Mo27qCAw4zM?start=45"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <table>
+            <tr>
+                <th colspan="2">DAWN</th>
+            </tr>
+            <tr>
+                <td>Release Date</td>
+                <td>July 29, 2015</td>
+            </tr>
+            <tr>
+                <td>Notes</td>
+                <td>Oricon Weekly #4</td>
+            </tr>
+        </table>
+        <hr class="long">
+
+        <iframe class="video" width="350" height="197" src="https://www.youtube.com/embed/Mo27qCAw4zM?start=45"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <table>
+            <tr>
+                <th colspan="2">Midnight Sun</th>
+            </tr>
+            <tr>
+                <td>Release Date</td>
+                <td>June 25, 2014</td>
+            </tr>
+            <tr>
+                <td>Notes</td>
+                <td>Oricon Weekly #9</td>
+            </tr>
+        </table>
+        <hr class="long">
+
+        <iframe class="video" width="350" height="197" src="https://www.youtube.com/embed/Mo27qCAw4zM?start=45"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <table>
+            <tr>
+                <th colspan="2">Sleepless Nights</th>
+            </tr>
+            <tr>
+                <td>Release Date</td>
+                <td>October 3, 2012</td>
+            </tr>
+            <tr>
+                <td>Notes</td>
+                <td>Oricon Weekly #11</td>
+            </tr>
+        </table>
+        <hr class="long">
+
+        <h2 class="pink album">Mini Albums</h2>
+
+        <iframe class="video" width="350" height="197" src="https://www.youtube.com/embed/Mo27qCAw4zM?start=45"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+
+        <table>
+            <tr>
+                <th colspan="2">Dareka, Umi o. EP</th>
+            </tr>
+            <tr>
+                <td>Release Date</td>
+                <td>September 13, 2014</td>
+            </tr>
+            <tr>
+                <td class="cell">Tie-in</td>
+                <td>
+                    <em>"Dareka, Umi o."</em> — Ending theme of the anime *Terror in Resonance*<br>
+                    <em>"Hakuchuumu"</em> — Tokyo MX “Tokyo Superior Date 2” Theme Song / iOS & Android app “Tokyo
+                    Superior Game” Theme Song
+                </td>
+            </tr>
+        </table>
+        <hr class="long">
+
+        <iframe class="video" width="350" height="197" src="https://www.youtube.com/embed/Mo27qCAw4zM?start=45"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+        <table>
+            <tr>
+                <th colspan="2">After Dark</th>
+            </tr>
+            <tr>
+                <td class="cell">Release Date</td>
+                <td>November 20, 2013</td>
+            </tr>
+            <tr>
+                <td class="cell">Tie-in</td>
+                <td>PLANTE SYSTEM “Micellar Cleansing Water” Commercial Song</td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+
+</html>

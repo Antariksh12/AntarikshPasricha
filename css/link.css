@@ -1,0 +1,61 @@
+body {
+    background: url(../images/link_back0.jpg) no-repeat;
+    background-size: 100% auto;
+    color: #e9e8eb;
+}
+
+/* Title section */
+h1 {
+    font-family: 'Monotype Corsiva', 'Luminari', cursive, 'Noteworthy', 'Georgia';
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+hr#title {
+    width: 200px;
+    margin: 5px auto 30px auto;
+}
+
+/* Main content block */
+div#text {
+    clear: both;
+    margin-left: 25%;
+    margin-right: 20%;
+    padding-bottom: 80px;
+}
+
+/* Section heading for each link category */
+h2 {
+    border-left: solid 10px #0d6188;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+/* Divider line between link categories */
+hr.link {
+    border: solid 0.5px #828282;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-right: 5%;
+}
+
+/* SNS image links */
+img.sns {
+    width: 5%;
+    height: auto;
+    margin-right: 25px
+}
+
+/* Fan club image link */
+img#fc {
+    width: 62%;
+    height: auto;
+}
+
+/* Shop and music distribution site image links */
+/* img.shop, */
+ img.dl {
+    width: 20%;
+    /* height: auto; */
+    height: 50%;
+    margin-right: 25px;
+}
